@@ -1,0 +1,170 @@
+[
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Grilled Herb Chicken.png",
+        "recipe_id": 101,
+        "recipe_name": "Grilled Herb Chicken",
+        "short_description": "Juicy and flavorful chicken grilled to perfection with fresh herbs.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml olive oil",
+            "50 g fresh thyme",
+            "30 g garlic cloves",
+            "1 lemon (juice)",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "30 min",
+        "calories": "320 calories"
+    },
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Creamy Vegetable Pasta.png",
+        "recipe_id": 102,
+        "recipe_name": "Creamy Vegetable Pasta",
+        "short_description": "A rich and creamy pasta dish packed with fresh vegetables.",
+        "ingredients": [
+            "200 g pasta",
+            "100 g broccoli",
+            "100 g bell peppers",
+            "50 g cherry tomatoes",
+            "200 ml cream",
+            "30 g parmesan cheese",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "25 min",
+        "calories": "450 calories"
+    },
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Spicy Vegetable Curry.png",
+        "recipe_id": 103,
+        "recipe_name": "Spicy Vegetable Curry",
+        "short_description": "A bold and aromatic curry bursting with spices and veggies.",
+        "ingredients": [
+            "400 g mixed vegetables (carrot, potato, beans)",
+            "200 ml coconut milk",
+            "50 g curry paste",
+            "30 g ginger",
+            "2 green chilies",
+            "1 tsp turmeric",
+            "Salt to taste"
+        ],
+        "preparing_time": "40 min",
+        "calories": "280 calories"
+    },
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Chocolate Lava Cake.png",
+        "recipe_id": 104,
+        "recipe_name": "Chocolate Lava Cake",
+        "short_description": "Indulge in a warm, gooey chocolate cake that melts in your mouth.",
+        "ingredients": [
+            "200 g dark chocolate",
+            "100 g butter",
+            "50 g sugar",
+            "2 eggs",
+            "30 g flour",
+            "1 tsp vanilla extract",
+            "Pinch of salt"
+        ],
+        "preparing_time": "20 min",
+        "calories": "450 calories"
+    },
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Tropical Fruit Smoothie.png",
+        "recipe_id": 105,
+        "recipe_name": "Tropical Fruit Smoothie",
+        "short_description": "A refreshing and healthy blend of tropical fruits.",
+        "ingredients": [
+            "150 g mango",
+            "100 g pineapple",
+            "1 banana",
+            "200 ml coconut water",
+            "1 tsp honey",
+            "Ice cubes"
+        ],
+        "preparing_time": "10 min",
+        "calories": "180 calories"
+    },
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Seafood Paella.png",
+        "recipe_id": 106,
+        "recipe_name": "Seafood Paella",
+        "short_description": "A classic Spanish dish with rice, seafood, and vibrant spices.",
+        "ingredients": [
+            "300 g rice",
+            "200 g shrimp",
+            "150 g mussels",
+            "100 g squid",
+            "500 ml fish stock",
+            "1 tsp saffron",
+            "30 g garlic",
+            "Salt and paprika to taste"
+        ],
+        "preparing_time": "50 min",
+        "calories": "380 calories"
+    },
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Mixed Berry Parfait.png",
+        "recipe_id": 107,
+        "recipe_name": "Mixed Berry Parfait",
+        "short_description": "A delightful layered dessert with berries, yogurt, and granola.",
+        "ingredients": [
+            "100 g strawberries",
+            "100 g blueberries",
+            "100 g raspberries",
+            "200 g Greek yogurt",
+            "50 g granola",
+            "1 tbsp honey"
+        ],
+        "preparing_time": "15 min",
+        "calories": "250 calories"
+    },
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Classic Beef Burger.png",
+        "recipe_id": 108,
+        "recipe_name": "Classic Beef Burger",
+        "short_description": "A juicy and satisfying burger with all the classic toppings.",
+        "ingredients": [
+            "200 g ground beef",
+            "1 burger bun",
+            "50 g cheddar cheese",
+            "50 g lettuce",
+            "30 g tomato slices",
+            "1 tbsp ketchup",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "20 min",
+        "calories": "400 calories"
+    },
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Vegetable Spring Rolls.png",
+        "recipe_id": 109,
+        "recipe_name": "Vegetable Spring Rolls",
+        "short_description": "Crispy and delicious spring rolls stuffed with fresh vegetables.",
+        "ingredients": [
+            "10 spring roll wrappers",
+            "100 g cabbage (shredded)",
+            "50 g carrots (julienned)",
+            "50 g bell peppers (sliced)",
+            "30 g bean sprouts",
+            "1 tbsp soy sauce",
+            "1 tsp sesame oil"
+        ],
+        "preparing_time": "30 min",
+        "calories": "200 calories"
+    },
+    {
+        "recipe_image": "./public/Project Doc , Info and pic/Recipe Image/Zesty Lemon Tart.png",
+        "recipe_id": 110,
+        "recipe_name": "Zesty Lemon Tart",
+        "short_description": "A tangy and sweet dessert with a buttery crust.",
+        "ingredients": [
+            "200 g all-purpose flour",
+            "100 g butter",
+            "50 g sugar",
+            "3 lemons (juice and zest)",
+            "200 ml condensed milk",
+            "2 eggs",
+            "Pinch of salt"
+        ],
+        "preparing_time": "35 min",
+        "calories": "300 calories"
+    }
+]
