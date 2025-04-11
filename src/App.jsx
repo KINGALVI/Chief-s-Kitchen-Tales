@@ -2,6 +2,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header/Header';
 import Carousel from './Carousel/Carousel';
+import Cards from './Cards/Cards';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header></Header>
       <Carousel></Carousel>
+      <Cards></Cards>
     </>
   )
 
