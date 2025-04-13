@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import { Clock, Fire } from 'react-bootstrap-icons';
 import PropTypes from 'prop-types';
 
-const RecipeCard = ({ card }) => {
+const RecipeCard = ({ card, handelSetCook }) => {
     const { recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = card;
     return (
         <Card className="bg-white text-dark shadow-lg m-5" style={{ width: '25rem', borderRadius: '10px' }}>
@@ -13,14 +13,14 @@ const RecipeCard = ({ card }) => {
                 <Card.Text>{short_description}</Card.Text>
                 <hr />
                 {
-                    ingredients.map(ingredient => <li>{ingredient}</li>)
+                    ingredients.map((ingredient, idx) => <li key={idx}>{ingredient}</li>)
                 }
                 <hr />
                 <div className='d-flex pb-2'>
                     <span className='d-flex align-items-center pe-2'><Clock className='pe-1' size={20} color="gray" /> {preparing_time}</span>
                     <span className='d-flex align-items-center pe-2'><Fire className='pe-1' size={20} color="gray" /> {calories}</span>
                 </div>
-                <Button variant="success"><b>Want to Cook</b></Button>
+                <Button onClick={() => handelSetCook(card)} variant="success"><b>Want to Cook</b></Button>
             </Card.Body>
         </Card>
     );
