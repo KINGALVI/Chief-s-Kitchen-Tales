@@ -6,10 +6,10 @@ import Professional_Chief from "../../public/Project Doc , Info and pic/professi
 function Carousel() {
   return (
     <center>
-      <Card className="bg-dark text-white shadow-lg m-5 w-75 " style={{ borderRadius: '10px' }}>
+      <Card className="bg-dark text-white shadow-lg m-5" style={{ borderRadius: '10px' }}>
 
         <div className='d-flex justify-content-center align-items-center'>
-          <Card.Img className='w-100' src={Professional_Chief} alt="Card image" style={{ filter: 'brightness(50%)', opacity: 0.8 }} />
+          <Card.Img className='w-100 h-100' src={Professional_Chief} alt="Card image" style={{ filter: 'brightness(50%)', opacity: 0.8 }} />
         </div>
 
         <Card.ImgOverlay className='d-flex justify-content-center align-items-center'>
