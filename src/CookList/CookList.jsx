@@ -7,7 +7,7 @@ const CookList = ({ Cook }) => {
         <Card className="bg-white text-dark shadow-lg m-5 w-100 h-100">
             <br />
             <center>
-                <h2>Want to cook:{Cook.length}</h2>
+                <h2 className=''>Want to cook : {Cook.length}</h2>
             </center>
 
             {Cook.map(({ recipe_name, preparing_time, calories }, index) => (
