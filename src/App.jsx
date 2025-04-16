@@ -37,7 +37,7 @@ function App() {
       </center>
 
       <section className='d-grid d-md-flex'>
-        <Cards API={API} handelSetCook={handelSetCook} ></Cards>
+        <Cards Cook={Cook} API={API} handelSetCook={handelSetCook} ></Cards>
         <CookList Cook={Cook}></CookList>
       </section>
 

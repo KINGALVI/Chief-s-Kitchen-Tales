@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import PropTypes from 'prop-types';
 
-const Cards = ({ handelSetCook, API }) => {
+const Cards = ({ handelSetCook, API, Cook }) => {
 
     return (
         <section className='d-grid'>
@@ -11,7 +11,7 @@ const Cards = ({ handelSetCook, API }) => {
                 {
                     API.map((card, idx) => (
                         <Col key={idx}>
-                            <RecipeCard key={idx} handelSetCook={handelSetCook} card={card}></RecipeCard>
+                            <RecipeCard key={idx} handelSetCook={handelSetCook} card={card} Cook={Cook}></RecipeCard>
                         </Col>
                     ))}
             </Row>
