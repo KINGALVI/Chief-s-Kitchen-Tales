@@ -14,7 +14,8 @@ const RecipeCard = ({ card, handelSetCook, Cook }) => {
 
     const handleButtonClick = () => {
 
-        const isAlreadyCooked = Cook.some(item => item.recipe_name === recipe_name);
+        // Check if the card is already in the "Want to Cook" list
+        const isAlreadyCooked = Cook.some(cook => cook.recipe_name === card.recipe_name);
 
         if (isAlreadyCooked === false) {
             handelSetCook(card);
@@ -32,7 +33,9 @@ const RecipeCard = ({ card, handelSetCook, Cook }) => {
 
     return (
         <Card className="bg-white text-dark shadow-lg m-5" style={{ width: '25rem', borderRadius: '10px' }}>
+
             <Card.Img variant="top" src={recipe_image} />
+
             <Card.Body>
                 <Card.Title>{recipe_name}</Card.Title>
                 <Card.Text>{short_description}</Card.Text>
@@ -41,10 +44,10 @@ const RecipeCard = ({ card, handelSetCook, Cook }) => {
                 <hr />
                 <div className="d-flex pb-2">
                     <span className="d-flex align-items-center pe-2">
-                        <Clock className="pe-1" size={20} color="gray" /> {preparing_time}
+                        <Clock className="pe-1" size={20} color="gray" /> {preparing_time} Minutes
                     </span>
                     <span className="d-flex align-items-center pe-2">
-                        <Fire className="pe-1" size={20} color="gray" /> {calories}
+                        <Fire className="pe-1" size={20} color="gray" /> {calories} Calories
                     </span>
                 </div>
                 <Button onClick={handleButtonClick} variant="success"><b>Want to Cook</b></Button>
@@ -64,7 +67,9 @@ const RecipeCard = ({ card, handelSetCook, Cook }) => {
                         <Button variant="secondary" onClick={handleCloseModal}>Close</Button>
                     </Modal.Footer>
                 </Modal>
+
             </Card.Body>
+
         </Card>
     );
 };
