@@ -4,6 +4,7 @@ import CookingList from '../CookingList/CookingList';
 import { useState } from 'react';
 
 const CookList = ({ Cook }) => {
+
     const [Cooking, setCooking] = useState([]);
 
     const handelSetCooking = (CookingList) => {
@@ -16,6 +17,20 @@ const CookList = ({ Cook }) => {
         }
 
     };
+
+
+    const [Time, setTime] = useState(0);
+
+    const handelSetTime = ({ preparing_time }) => {
+        setTime(Time + preparing_time);
+    }
+
+
+    const [Calories, setCalories] = useState(0);
+
+    const handelSetCalories = ({ calories }) => {
+        setCalories(Calories + calories)
+    }
 
     return (
         <Card className="bg-white text-dark shadow-lg m-5 w-100 h-100">
@@ -34,10 +49,12 @@ const CookList = ({ Cook }) => {
 
                         <Button
                             variant="success text-dark"
-                            onClick={() => handelSetCooking({ recipe_name, preparing_time, calories })}
-                        >
-                            <b>Preparing</b>
-                        </Button>
+                            onClick={() => {
+                                handelSetCooking({ recipe_name, preparing_time, calories })
+                                handelSetTime({ preparing_time })
+                                handelSetCalories({ calories })
+                            }}
+                        ><b>Preparing</b></Button>
                         <hr />
                     </center>
 
@@ -46,6 +63,12 @@ const CookList = ({ Cook }) => {
             }
             <hr />
             <CookingList Cooking={Cooking}></CookingList>
+            <hr />
+            <center>
+                <h6><b>Total Time = {Time} Minutes</b></h6>
+                <h6><b>Total Calories = {Calories} Calories</b></h6>
+            </center>
+
         </Card>
     );
 };
