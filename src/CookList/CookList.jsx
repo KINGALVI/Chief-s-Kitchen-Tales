@@ -3,7 +3,7 @@ import { Button, Card } from 'react-bootstrap';
 import CookingList from '../CookingList/CookingList';
 import { useState } from 'react';
 
-const CookList = ({ Cook }) => {
+const CookList = ({ Cook, setCook }) => {
 
     const [Cooking, setCooking] = useState([]);
 
@@ -32,6 +32,16 @@ const CookList = ({ Cook }) => {
         setCalories(Calories + calories)
     }
 
+
+    const handleRemoveFromCookList = (recipe_id) => {
+        // Long Verstion
+        const updatedCookList = Cook.filter(item => item.recipe_id !== recipe_id);
+        setCook(updatedCookList);
+
+        // Short Verstion
+        // setCook(Cook.filter(item => item.recipe_id !== recipe_id))
+    };
+
     return (
         <Card className="bg-white text-dark shadow-lg m-5 w-100 h-100">
             <br />
@@ -40,7 +50,7 @@ const CookList = ({ Cook }) => {
             </center>
 
             {
-                Cook.map(({ recipe_name, preparing_time, calories }, index) => (
+                Cook.map(({ recipe_name, preparing_time, calories, recipe_id }, index) => (
                     <center key={index}>
                         <hr />
                         <p><b>Name : {recipe_name}</b></p>
@@ -53,6 +63,7 @@ const CookList = ({ Cook }) => {
                                 handelSetCooking({ recipe_name, preparing_time, calories })
                                 handelSetTime({ preparing_time })
                                 handelSetCalories({ calories })
+                                handleRemoveFromCookList(recipe_id);
                             }}
                         ><b>Preparing</b></Button>
                         <hr />
