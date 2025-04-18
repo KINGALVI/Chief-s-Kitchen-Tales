@@ -1,6 +1,6 @@
 [
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Grilled_Herb_Chicken.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Grilled-Herb-Chicken.png",
         "recipe_id": 1,
         "recipe_name": "Grilled Herb Chicken",
         "short_description": "Juicy and flavorful chicken grilled to perfection with fresh herbs.",
@@ -16,7 +16,7 @@
         "calories": 320
     },
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Creamy_Vegetable_Pasta.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Creamy-Vegetable-Pasta.png",
         "recipe_id": 2,
         "recipe_name": "Creamy Vegetable Pasta",
         "short_description": "A rich and creamy pasta dish packed with fresh vegetables.",
@@ -33,7 +33,7 @@
         "calories": 450
     },
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Spicy_Vegetable_Curry.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Spicy-Vegetable-Curry.png",
         "recipe_id": 3,
         "recipe_name": "Spicy Vegetable Curry",
         "short_description": "A bold and aromatic curry bursting with spices and veggies.",
@@ -50,7 +50,7 @@
         "calories": 280
     },
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Chocolate_Lava_Cake.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Chocolate-Lava-Cake.png",
         "recipe_id": 4,
         "recipe_name": "Chocolate Lava Cake",
         "short_description": "Indulge in a warm, gooey chocolate cake that melts in your mouth.",
@@ -67,7 +67,7 @@
         "calories": 450
     },
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Tropical_Fruit_Smoothie.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Tropical-Fruit-Smoothie.png",
         "recipe_id": 5,
         "recipe_name": "Tropical Fruit Smoothie",
         "short_description": "A refreshing and healthy blend of tropical fruits.",
@@ -83,7 +83,7 @@
         "calories": 180
     },
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Seafood_Paella.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Seafood-Paella.png",
         "recipe_id": 6,
         "recipe_name": "Seafood Paella",
         "short_description": "A classic Spanish dish with rice, seafood, and vibrant spices.",
@@ -101,7 +101,7 @@
         "calories": 380
     },
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Mixed_Berry_Parfait.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Mixed-Berry-Parfait.png",
         "recipe_id": 7,
         "recipe_name": "Mixed Berry Parfait",
         "short_description": "A delightful layered dessert with berries, yogurt, and granola.",
@@ -117,7 +117,7 @@
         "calories": 250
     },
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Classic_Beef_Burger.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Classic-Beef-Burger.png",
         "recipe_id": 8,
         "recipe_name": "Classic Beef Burger",
         "short_description": "A juicy and satisfying burger with all the classic toppings.",
@@ -134,7 +134,7 @@
         "calories": 400
     },
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Vegetable_Spring_Rolls.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Vegetable-Spring-Rolls.png",
         "recipe_id": 9,
         "recipe_name": "Vegetable Spring Rolls",
         "short_description": "Crispy and delicious spring rolls stuffed with fresh vegetables.",
@@ -151,7 +151,7 @@
         "calories": 200
     },
     {
-        "recipe_image": "/Project_Doc_Info_and_Pic/Recipe_Image/Zesty_Lemon_Tart.png",
+        "recipe_image": "/Project-All-image/Recipe-Image/Zesty-Lemon-Tart.png",
         "recipe_id": 10,
         "recipe_name": "Zesty Lemon Tart",
         "short_description": "A tangy and sweet dessert with a buttery crust.",

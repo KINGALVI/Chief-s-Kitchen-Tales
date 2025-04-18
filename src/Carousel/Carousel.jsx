@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 // Importing the image used in the Carousel card.
-import Professional_Chief from "../../public/Project Doc , Info and pic/professional chief.png";
+import Professional_Chief from "../../public/Project-All-image/professional-chief.png";
 
 
 
