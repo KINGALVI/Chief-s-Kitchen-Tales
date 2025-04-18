@@ -30,7 +30,7 @@ const RecipeCard = ({ card, handelSetCook, Cook }) => {
     const handleButtonClick = () => {
 
         // Check if the recipe is already in the "Want to Cook" list.
-        const isAlreadyCooked = Cook.some(cook => cook.recipe_name === card.recipe_name);
+        const isAlreadyCooked = Cook.some(cookList => cookList.recipe_name === card.recipe_name);
 
         if (isAlreadyCooked === false) {
             // Add the recipe to the "Want to Cook" list if it's not already there.
