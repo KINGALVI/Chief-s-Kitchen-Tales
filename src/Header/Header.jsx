@@ -57,4 +57,4 @@ function Header() {
     );
 }
 
-export default Header; // Exporting the Header component to be used in other parts of the app.
+export default Header;
