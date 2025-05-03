@@ -143,4 +143,4 @@ RecipeCard.propTypes = {
     handelSetCook: PropTypes.func.isRequired, // Function to handle adding recipes.
 };
 
-export default RecipeCard; // Export the RecipeCard component for use in other parts of the app.
+export default RecipeCard;
