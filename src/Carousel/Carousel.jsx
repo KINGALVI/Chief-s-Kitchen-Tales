@@ -63,4 +63,4 @@ function Carousel() {
   );
 }
 
-export default Carousel; // Exporting the Carousel component to be used elsewhere in the application.
+export default Carousel;
