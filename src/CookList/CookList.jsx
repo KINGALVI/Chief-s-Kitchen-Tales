@@ -125,4 +125,4 @@ CookList.propTypes = {
 
 };
 
-export default CookList; // Export the CookList component for use in other parts of the app.
+export default CookList;
