@@ -67,4 +67,4 @@ Cards.propTypes = {
 
 };
 
-export default Cards; // Export the Cards component to be used in other parts of the app.
+export default Cards;
