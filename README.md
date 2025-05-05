@@ -24,4 +24,4 @@ Chief's Kitchen Tales is an engaging recipe-sharing platform designed to bring c
 ## 🛠️ How to Run Locally
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/KINGALVI/chiefs-kitchen-tales.git
+   git clone https://github.com/KINGALVI/chiefs-kitchen-tales
