@@ -21,12 +21,7 @@ Chief's Kitchen Tales is an engaging recipe-sharing platform designed to bring c
 
 ---
 
-## 📷 Screenshots
-![Preview](Project-All-image/Recipe-Image/Grilled-Herb-Chicken.png)
-
----
-
 ## 🛠️ How to Run Locally
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/chiefs-kitchen-tales.git
+   git clone https://github.com/KINGALVI/chiefs-kitchen-tales.git
